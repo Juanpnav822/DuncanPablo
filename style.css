@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    color: red;
+    padding: 1.5rem;
+    margin: 0;
+}
+
+ul.links{
+    list-style-type: none;
+    display: flex;
+}
+ul.links:hover ul.links:link a{
+    color: red;
+}
+ul.links{
+    margin-left: 25rem;
+}
+li.links{
+    margin:0.5rem;
+}
