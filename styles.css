@@ -1,0 +1,9 @@
+Header {
+    color: black;
+    text-align: center;
+    display: fixed;
+}
+
+nav {
+    display: flex;
+}
