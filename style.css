@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 #header {
     background-color: grey;
     text-align: center;
@@ -11,16 +12,28 @@
     margin: 0;
 }
 
-ul.links{
+ul.links {
     list-style-type: none;
     display: flex;
 }
-ul.links:hover ul.links:link a{
+
+ul.links:hover ul.links:link a {
     color: red;
 }
-ul.links{
+
+ul.links {
     margin-left: 25rem;
 }
-li.links{
-    margin:0.5rem;
+
+li.links {
+    margin: 0.5rem;
+}
+
+body {
+    background-color: rgb(109, 119, 116);
+    text-indent: 0pt;
+}
+
+.name {
+    font-weight: bold;
 }
